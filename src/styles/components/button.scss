@@ -1,0 +1,25 @@
+.c-button {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 20px;
+  height: 24px;
+  line-height: 22px;
+
+  border: 1px solid $border-color-default;
+  cursor: pointer;
+
+  font-size: 14px;
+  text-align: center;
+
+  transition: all .2s ease-in-out;
+
+  &.c-button-active {
+    border: 1px solid $border-color-hover;
+    background-color: $bg-color-hover;
+  }
+
+  &:hover {
+    border: 1px solid $border-color-hover;
+    background-color: $bg-color-hover;
+  }
+}

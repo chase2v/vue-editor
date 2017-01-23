@@ -1,0 +1,11 @@
+.c-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+
+  white-space: nowrap;
+
+  .c-row-item {
+    flex: 0 1 auto;
+  }
+}

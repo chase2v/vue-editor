@@ -1,0 +1,38 @@
+.c-table {
+  position: relative;
+  margin-left: 6px;
+
+  display: inline-block;
+  height: 24px;
+  line-height: 24px;
+}
+
+.table-panel {
+  padding: 4px 6px;
+
+  .title {
+    margin-bottom: 4px;
+
+    font-family: Microsoft Yahei;
+    font-size: 14px;
+  }
+
+  .grid {
+    margin-right: 4px;
+
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+
+    border: 1px solid $border-color-default;
+    cursor: pointer;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.hover {
+      border-color: #000;
+    }
+  }
+}
